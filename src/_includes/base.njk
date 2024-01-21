@@ -9,11 +9,11 @@
       <header>
          <h1> {{title}} </h1>
          <link rel="stylesheet" href="style.css">
+         {{content | safe}}
       </header>
       <main>
-         {{content | safe}}
          <img src="images/Earth.svg" alt="Image of Earth">
-         <img src="images/Moon.svg" alt="Image of Moon">
+         <a href="moon.md"><img src="images/Moon.svg" alt="Image of Moon"></a>
       </main>
       
    </body>

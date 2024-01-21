@@ -1,7 +1,7 @@
 {
   "name": "mi449_1.5-lab",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
