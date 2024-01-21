@@ -1,11 +1,10 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: sans-serif;
     background-color: #1e1e1e;
-    
-}
-    
+}   
+  
 h1 {
     color: white;
 }
