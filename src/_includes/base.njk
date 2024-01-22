@@ -6,15 +6,25 @@
       <title>Earth</title>
    </head>
    <body>
+
       <header>
          <h1> {{title}} </h1>
          <link rel="stylesheet" href="style.css">
          {{content | safe}}
       </header>
+
       <main>
          <img src="images/Earth.svg" alt="Image of Earth">
          <a href="moon.md"><img src="images/Moon.svg" alt="Image of Moon"></a>
+
+         <ul>
+            {%- for post in collections.post -%}
+            <li>{{ post.data.title }}</li>
+            {%- endfor -%}
+         </ul>
+         
       </main>
       
    </body>
+
 </html>

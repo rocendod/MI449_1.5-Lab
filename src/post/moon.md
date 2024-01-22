@@ -1,0 +1,6 @@
+---
+title: Moon
+tags: post
+layout: base.njk
+---
+The Moon, Earth's only natural satellite, is a barren and airless world located about 238,855 miles away from our planet. It is much smaller than Earth, with only about 1/6th of our planet's gravity. The Moon lacks a substantial atmosphere, which means it doesn't have weather or the ability to support life. Its surface is covered in rocky terrain, craters, and ancient lava plains known as maria. The Moon's appearance changes throughout the month due to its phases, caused by the interaction of sunlight and its orbit around Earth. Despite its desolate nature, the Moon has played a significant role in human history and exploration, serving as a target for scientific study and a symbol in various cultures and myths.

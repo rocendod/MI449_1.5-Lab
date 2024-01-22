@@ -6,15 +6,18 @@
       <title>Earth</title>
    </head>
    <body>
+
       <header>
          <h1> {{title}} </h1>
          <link rel="stylesheet" href="style.css">
-      </header>
-      <main>
          {{content | safe}}
+      </header>
+
+      <main>
          <img src="images/Earth.svg" alt="Image of Earth">
-         <img src="images/Moon.svg" alt="Image of Moon">
+         <a href="moon.md"><img src="images/Moon.svg" alt="Image of Moon"></a>
       </main>
       
    </body>
+   
 </html>
