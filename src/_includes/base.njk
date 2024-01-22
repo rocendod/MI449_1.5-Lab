@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="/style.css">
       <title>Earth</title>
    </head>
    <body>
@@ -14,14 +14,8 @@
       </header>
 
       <main>
-         <img src="images/Earth.svg" alt="Image of Earth">
-         <a href="moon.md"><img src="images/Moon.svg" alt="Image of Moon"></a>
-
-         <ul>
-            {%- for post in collections.post -%}
-            <li>{{ post.data.title }}</li>
-            {%- endfor -%}
-         </ul>
+         <a href="/index"><img src="/images/Earth.svg" alt="Image of Earth"></a>
+         <a href="/moon"><img src="/images/Moon.svg" alt="Image of Moon"></a>
 
       </main>
       
